@@ -153,18 +153,43 @@ html, body {
 .video video {
     width: 50%;
     margin: 0;
-    
-    
 }
 
 .video .content-video {
     color: white;
-    align-items: center;
+    position: absolute;
+    bottom: 10%;
 }
 
 .video .content-video h1,
 .video .content-video p {
     text-align: center;
+}
+
+.video .content-video h1{
+    font-size: 3rem;
+}
+
+.video .content-video p {
+    font-size: 1.6rem;
+}
+
+.video .content-video .glowtime-1 {
+    text-shadow: -4px -10px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high)), -4px -4px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high)), -4px 0px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), -4px 4px var(--glowtime) rgba(0, 128, 219, var(--opacity-var-low)), -4px 12px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px -2px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px 0px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px 4px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high));
+    
+}
+
+.video .content-video .glowtime-2 {
+    text-shadow: 2px -10px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 2px -2px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 2px 0px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 2px 4px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 2px 12px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 20px 0px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-low)), 20px 4px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-low));
+    
+}
+
+.video .content-video .glowtime-3 {
+    text-shadow: 8px -10px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 8px -2px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 0px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 4px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 12px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high));
+}
+
+.video .content-video .glowtime-4 {
+    text-shadow: 13px -10px 20px rgba(206, 56, 118, var(--opacity-var-low)), 13px -2px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-low)), 13px 0px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-high)), 13px 4px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-high)), 13px 12px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-low));    
 }
 
 .video .content-video button {
