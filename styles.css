@@ -142,7 +142,7 @@ html, body {
 
 /* video start */
 .video {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,41 +158,53 @@ html, body {
 .video .content-video {
     color: white;
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
 }
 
 .video .content-video h1,
-.video .content-video p {
+.video #event-head {
     text-align: center;
 }
 
 .video .content-video h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    width: 61%;
+    text-align: center;
 }
 
-.video .content-video p {
+#event-head {
     font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    margin-top: 50px;
 }
 
-.video .content-video .glowtime-1 {
-    text-shadow: -4px -10px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high)), -4px -4px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high)), -4px 0px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), -4px 4px var(--glowtime) rgba(0, 128, 219, var(--opacity-var-low)), -4px 12px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px -2px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px 0px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 40px 4px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-high));
-    
-}
-
-.video .content-video .glowtime-2 {
-    text-shadow: 2px -10px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 2px -2px var(--glowtime) rgba(0, 128, 217, var(--opacity-var-low)), 2px 0px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 2px 4px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 2px 12px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 20px 0px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-low)), 20px 4px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-low));
-    
-}
-
-.video .content-video .glowtime-3 {
-    text-shadow: 8px -10px var(--glowtime) rgba(112, 98, 217, var(--opacity-var-low)), 8px -2px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 0px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 4px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high)), 8px 12px var(--glowtime) rgba(191, 69, 172, var(--opacity-var-high));
-}
-
-.video .content-video .glowtime-4 {
-    text-shadow: 13px -10px 20px rgba(206, 56, 118, var(--opacity-var-low)), 13px -2px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-low)), 13px 0px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-high)), 13px 4px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-high)), 13px 12px var(--glowtime) rgba(206, 56, 118, var(--opacity-var-low));    
-}
-
-.video .content-video button {
+.button {
     margin: 0 auto;
+    right: 0;
+    width: 100%;
+}
+
+.video #myVideo,
+.video .content-video,
+.video .button {
+    margin-bottom: 50px;
 }
 /* video end */
+
+/* 16 pro */
+.iphone-16-pro {
+    width: 100%;
+    padding: 10px;
+}
+
+.iphone-16-pro img{
+    width: 100%;
+}
