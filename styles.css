@@ -148,6 +148,7 @@ html, body {
     justify-content: center;
     align-items: center;
     position: relative;
+    color: white;
 }
 
 .video video {
@@ -201,6 +202,7 @@ html, body {
 
 /* 16 pro */
 .iphone-16-pro {
+    color: white;
     width: 100%;
     padding: 10px;
 }
