@@ -19,6 +19,8 @@ html, body {
     width: 100%;
     z-index: 100;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Navbar list */
@@ -201,7 +203,8 @@ html, body {
 /* video end */
 
 /* 16 pro */
-.iphone-16-pro {
+.iphone-16-pro,
+.iphone-16 {
     color: white;
     width: 100%;
     position: relative;
@@ -211,7 +214,7 @@ html, body {
     height: 100vh;
 }
 
-.iphone-16-pro .text-block {
+.iphone-16-pro .text-block{
     position: absolute;
     width: 100%;
     left: 0;
@@ -219,20 +222,24 @@ html, body {
 }
 
 .iphone-16-pro h1,
-.iphone-16-pro h3 {
+.iphone-16-pro h3,
+.iphone-16 h1,
+.iphone-16 h3 {
     text-align: center;
 }
 
-.iphone-16-pro h1 {
+.iphone-16-pro h1, 
+.iphone-16 h1 {
     font-size: 3rem;
 }
 
-.iphone-16-pro h3 {
+.iphone-16-pro h3, 
+.iphone-16 h3 {
     font-size: 1.6rem;
     font-weight: lighter;
 }
 
-.iphone-16-pro img{
+.iphone-16-pro img {
     width: 100%;
 }
 
@@ -261,11 +268,33 @@ html, body {
     background-color: #0071e3;
 }
 /* iphone 16 pro end */
-
-/* ihpone 16 start */
 .iphone-16{
-    background-image: linear-gradient(#0f144b, #f7f8fa);
-    width: 100%;
-    height: 200vh;
+    background-image: linear-gradient(180deg, #0f144b, #f4f4fc);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.iphone-16 .text-block {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10%;
+}
+
+.iphone-16 img{
+    width: 70%;
+    margin: 100px auto 0;
+}
+
+.iphone-16 .text-info {
+    width: 100%;
+    left: 0;
+    bottom: -30px;
+    text-align: center;
+}
+
+}
+
 /* iphone 16 end */
+
