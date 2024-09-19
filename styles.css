@@ -319,12 +319,17 @@ html, body {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    position: relative;
 }
 
 .watch .secondary-watch .img-watch {
     width: 48%;
     height: 48%;
     margin: 10px 0 10px;
+}
+
+.watch .secondary-watch .img-watch .img-watch-title {
+    text-align: center;
 }
 
 .watch .secondary-watch .img-watch img {
