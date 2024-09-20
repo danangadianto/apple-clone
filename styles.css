@@ -352,7 +352,9 @@ html, body {
     color: white;
 }
 
-
+.watch .secondary-watch .img-watch .img-watch-title-bottom p {
+    line-height: 0.7;
+}
 
 .watch .secondary-watch .img-watch img {
     width: 100%;
