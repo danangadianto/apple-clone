@@ -359,3 +359,20 @@ html, body {
 .watch .secondary-watch .img-watch img {
     width: 100%;
 }
+
+/* slideshow */
+.slideshow,
+.slideshow .wrapper,
+.slideshow .wrapper img {
+    width: 100%;
+}
+
+.slideshow {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slideshow .wrapper {
+    display: flex;
+}
+
